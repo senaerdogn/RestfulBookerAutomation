@@ -1,22 +1,24 @@
 # RestfulBookerAutomation
  Postman API Testi
+
+--> Bu proje "AkakçeRestfulAutomation" monitorü oluşturularak otomasyona bağlanmıştır. Testler başarıyla koşturulmuş olup, test sonuçlarının ekran görüntüsü 'Images' klasörüne eklenmiştir. <--
  
 # Restful Booker API Testleri
 Bu repo, [Restful Booker](http://restful-booker.herokuapp.com/apidoc/index.html) API'sinin Postman kullanılarak yapılan testlerini içerir.
 
-## Gereksinimler
+**Gereksinimler**
 Bu projeyi kullanmak için aşağıdaki araca ihtiyacınız olacak:
 - [Postman](https://www.postman.com/downloads/)
 
-## Kurulum
+**Kurulum**
 Bu repo'yu yerel bilgisayarınıza klonlayın:
 ```bash
 git clone https://github.com/kullaniciadi/restful-booker-api-tests.git
 
 **Koleksiyonların Kullanımı**
 Postman'i açın ve File > Import seçeneğine tıklayın.
-Bu repo içindeki .json uzantılı dosyaları seçin ve import edin.
-Koleksiyonları kullanarak Restful Booker API'sini test edin.
+Bu repo içindeki .json uzantılı dosyayı seçin ve import edin.
+Koleksiyonu kullanarak Restful Booker API'sini test edin.
 
 **Testler**
 API'nin temel fonksiyonlarını ve hata durumlarını test eden çeşitli testler Postman koleksiyonlarına dahil edilmiştir.
@@ -34,4 +36,3 @@ authToken: CreateToken isteğinden alınan token'ı depolamak için kullanılır
 bookingId: İstekler sırasında oluşturulan veya alınan rezervasyonların id'sini depolamak için kullanılır.
 
 
---> Bu proje "AkakçeRestfulAutomation" monitorü oluşturularak otomasyona bağlanmıştır. Testler başarıyla koşturulmuş olup, test sonuçlarının ekran görüntüsü 'Images' klasörüne eklenmiştir. <--
